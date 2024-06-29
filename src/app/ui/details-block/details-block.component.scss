@@ -1,0 +1,23 @@
+:host {
+  display: block;
+}
+.details-container {
+  // border: 1px solid;
+  font-size: 18px;
+  padding: 10px;
+  width: 100%;
+  background-color: #eeeeee;
+  .row {
+    padding: 10px;
+  }
+  .label {
+    font-weight: bold;
+    color: #757575;
+  }
+  .value {
+    display: inline-block;
+    margin-left: 15px;
+    color: #212121;
+    font-size: 20px;
+  }
+}

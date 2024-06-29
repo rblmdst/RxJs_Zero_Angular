@@ -1,0 +1,16 @@
+<table class="developer-list-table">
+    <colgroup>
+        <col />
+        <col />
+        <col />
+        <col />
+    </colgroup>
+    @for (developer of developers(); track developer.id) {
+    <tr>
+        <td>{{developer.firstName}} {{developer.lastName}}</td>
+        <td>{{developer.level}}</td>
+        <td>{{developer.type}}</td>
+        <td><button (click)="displayDetails(developer)">Details</button></td>
+    </tr>
+    }
+</table>

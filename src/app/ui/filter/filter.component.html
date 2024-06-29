@@ -1,0 +1,27 @@
+<div class="filter">
+    <div class="radio-group-label">Type</div>
+    <div class="radio-group">
+        <label>
+            <input name="type" [formControl]="typeCtrl" [value]="null" type="radio">All
+        </label>
+        @for (type of types; track type) {
+        <label>
+            <input name="type" [formControl]="typeCtrl" [value]="type" type="radio">{{type}}
+        </label>
+        }
+
+    </div>
+</div>
+<div class="filter">
+    <div class="radio-group-label">Level</div>
+    <div class="radio-group">
+        <label>
+            <input name="level" [formControl]="levelCtrl" [value]="null" type="radio">All
+        </label>
+        @for (level of levels; track level) {
+        <label>
+            <input name="level" [formControl]="levelCtrl" [value]="level" type="radio">{{level}}
+        </label>
+        }
+    </div>
+</div>

@@ -1,0 +1,8 @@
+<table class="country-list-table">
+    @for (country of countries(); track country.code) {
+    <tr>
+        <td>{{country.code}}</td>
+        <td>{{country.name}}</td>
+    </tr>
+    }
+</table>

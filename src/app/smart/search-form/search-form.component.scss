@@ -1,0 +1,20 @@
+.search-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  label {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #455a64;
+    text-transform: uppercase;
+  }
+  input {
+    border: 2px solid #455a64;
+    padding: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+    border-radius: 6px;
+    width: 400px;
+  }
+}

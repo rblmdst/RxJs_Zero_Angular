@@ -1,0 +1,9 @@
+<filter (filter)="onFilter($event)" />
+
+@if (developers.length) {
+<div class="main-content">
+    <developer-list (details)="onDetails($event)" [developers]="developers" />
+    <details-block [country]="currentDevCountry" [currency]="currentDevCountryCurrency"></details-block>
+</div>
+
+}

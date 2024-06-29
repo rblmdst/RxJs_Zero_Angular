@@ -1,0 +1,25 @@
+.radio-group {
+  // display: flex;
+  margin-bottom: 10px;
+  label {
+    display: inline-block;
+    // border: 1px solid;
+    padding: 5px;
+    padding-right: 10px;
+    margin-right: 15px;
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+  input {
+    margin-right: 5px;
+  }
+}
+.radio-group-label {
+  color: #455a64;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.filter {
+  margin-top: 20px;
+}
